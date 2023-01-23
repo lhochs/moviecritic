@@ -1,0 +1,244 @@
+@charset "UTF-8";
+
+/* ------- */
+/* NAV BAR */
+/* ------- */
+
+nav{
+	width: 100%;
+	color: white;
+	padding: 0;
+}
+
+.nav-bar{
+	justify-content: space-between;
+}
+
+.navbar-collapse{
+	justify-content: flex-end;
+	margin-right: 1%;
+	/* border: 2pt dotted red; */
+}
+
+.form-inline{
+	display: flex;
+	margin-right: 2%;
+}
+
+.form-control{
+	margin-right: 2%;
+	width: 40vw;
+}
+
+.nav-item{
+	font-size: 10pt;
+}
+
+.camera{
+	padding:2%;
+	background-color: white;
+	border-radius: 8px;
+}
+
+.user{
+	padding:2%;
+	background-color: white;
+	border-radius: 30px;
+}
+
+/* --------- */
+/* HOME PAGE */
+/* --------- */
+
+#home{
+	background-color: black;
+}
+
+#home-container{
+	margin: 2% 15%;
+	/* border: dotted 2pt red; */
+}
+
+.home-title{
+	color: white;
+}
+
+.home-sub-nav-buttons{
+	display: flex;
+	justify-content: space-between;
+}
+
+.home-sub-nav{
+	padding: 0 1%;
+	display: flex;
+	width: 50%;
+	justify-content: space-between;
+	list-style-type: none;
+}
+
+.home-movieCard{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	/* border: dotted 2pt red; */
+}
+
+.card{
+	margin: 1%;
+}
+
+.bottom-link{
+	text-align: center;
+}
+
+.card-link { 
+     background: none;
+     border: none;
+     color: blue;
+     text-decoration: underline;
+     cursor: pointer; 
+}
+
+/* -------- */
+/* VIEW ONE */
+/* -------- */
+
+#viewOne-container{
+	height: 100vh;
+	background-image: url("https://images5.alphacoders.com/129/1292802.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-shadow: inset 60px 0px 180px black, inset -60px 0px 180px black; 
+	color: white;
+}
+
+.viewOne-header{
+	padding: 2% 0 0 0;
+}
+
+.viewOne-movieCard{
+	width: 60vw;
+	margin: 7% auto auto auto;
+	background-color: black;
+	border-radius: 10px;
+	box-shadow: 2px 2px 15px 1px black;
+}
+
+.viewOne-body{
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: 2% auto 2% auto;
+}
+
+.viewOne-img{
+	margin: 0% 4% 4% 0%;
+	border-radius: 10px;
+	box-shadow: inset 1px 1px 5px 3px black;
+}
+
+.card-text{
+	position: relative;
+	padding: 3% 0% 3% 3%;
+}
+
+.viewOne-rating{
+	width: 40%;
+	text-align: center;
+	position: absolute;
+	bottom: 10%;
+}
+.viewOne-align{
+	display: flex;
+	align-items: center;
+	width: 40%;
+}
+.viewOne-bottom{
+	color: white;
+	position: absolute;
+	bottom: 3%;
+	left: 30%;
+	
+}
+
+/* --------- */
+/* ADD MOVIE */
+/* --------- */
+
+#add-movie{
+	height: 100vh;
+	background-color: black;
+}
+
+#add-movie h1{
+	text-align: center;
+	padding: 2% 0;
+	margin: 0% auto 2% auto;
+	width: 100%;
+	background-color: rgba(80, 80, 80, 0.3);
+}
+
+.add-movie-center{
+	align-content: center;
+	text-align: center;
+	margin-bottom: 2%;
+}
+
+.add-movie-nav-logo{
+	margin-right: 2%;
+}
+
+.add-movie-container{	
+	color: white;
+	width: 40%;
+	margin: 4% auto;
+	padding: 1%;
+}
+
+.add-movie-bottom-row{
+	display: flex;
+	width: 30%;
+	margin: 0 auto;
+	justify-content: space-around;
+}
+
+/* ---------- */
+/* EDIT MOVIE */
+/* ---------- */
+
+#edit-movie{
+	height: 100vh;
+	background-color: black;
+}
+
+#edit-movie h1{
+	text-align: center;
+	padding: 2% 0;
+	margin: 0% auto 2% auto;
+	width: 100%;
+	background-color: rgba(80, 80, 80, 0.3);
+}
+
+.edit-movie-center{
+	align-content: center;
+	text-align: center;
+	margin-bottom: 2%;
+}
+
+.edit-movie-nav-logo{
+	margin-right: 2%;
+}
+
+.edit-movie-container{	
+	color: white;
+	width: 40%;
+	margin: 4% auto;
+	padding: 1%;
+}
+
+.edit-movie-bottom-row{
+	display: flex;
+	width: 30%;
+	margin: 0 auto;
+	justify-content: space-around;
+}
