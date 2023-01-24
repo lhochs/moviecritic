@@ -75,21 +75,21 @@
 					<form:input class="form-control" path="genre"/>
 				</div>
 			</div>
-			<%-- <div class="row mb-3">
+			<div class="row mb-3">
 				<form:errors class="error" path="imdb_movie_poster"/>
 				<form:label class="col-sm-2 col-form-label" path="imdb_movie_poster">Poster URL Link: </form:label>
 				<div class="col-sm-10">
 					<form:input class="form-control" path="imdb_movie_poster"/>
 				</div>
-			</div> --%>
-			<div class="row mb-3">
+			</div> 
+			<%-- <div class="row mb-3">
 					<form:errors class="error" path="imdb_movie_poster"/>
 					<form:label class="col-sm-2 col-form-label" path="imdb_movie_poster">Poster URL:</form:label>
 					<div class="col-sm-10">
-						<%-- <form:input class="form-control" path="imdb_movie_poster"/> --%>
+						<form:input class="form-control" path="imdb_movie_poster"/>
 						<form:input path="imdb_movie_poster" type="file" id="myFile" name="filename"/>
 					</div>
-				</div>
+				</div> --%>
 			<%-- <p>
 				<form:input type="hidden" path="user" value="${user.id}"/>
 			</p> --%>
