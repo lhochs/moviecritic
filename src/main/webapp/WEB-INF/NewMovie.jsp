@@ -39,7 +39,7 @@
 				<h1 class="add-movie-title" style="font-weight: 300;">Add a New Movie</h1>
 			</div>
 			<form:form action="/movies" method="post" modelAttribute="movie">
-				<div class="row mb-3">
+				<div class="row mb-3" enctype="multipart/form-data">
 					<form:errors class="error" path="imdbLink"/>
 					<form:label class="col-sm-2 col-form-label" path="imdbLink">IMDb Link: </form:label>
 					<div class="col-sm-10">
@@ -76,12 +76,19 @@
 				</div>
 				<div class="row mb-3">
 					<form:errors class="error" path="imdb_movie_poster"/>
+					<form:label class="col-sm-2 col-form-label" path="imdb_movie_poster">Poster URL Link: </form:label>
+					<div class="col-sm-10">
+						<form:input class="form-control" path="imdb_movie_poster"/>
+					</div>
+				</div> 
+				<%-- <div class="row mb-3">
+					<form:errors class="error" path="imdb_movie_poster"/>
 					<form:label class="col-sm-2 col-form-label" path="imdb_movie_poster">Poster URL:</form:label>
 					<div class="col-sm-10">
-						<%-- <form:input class="form-control" path="imdb_movie_poster"/> --%>
-						<form:input path="imdb_movie_poster" type="file" id="myFile" name="filename"/>
+						<form:input class="form-control" path="imdb_movie_poster"/>
+						<form:input path="imdb_movie_poster" type="file" id="myFile" name="filename" accept="image/png,image/jpeg"/>
 					</div>
-				</div>
+				</div> --%>
 				<%-- <p>
 					<form:input type="hidden" path="user" value="${user.id}"/>
 				</p> --%>
